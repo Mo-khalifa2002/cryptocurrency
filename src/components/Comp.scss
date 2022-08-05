@@ -1,0 +1,28 @@
+@import "../App.scss";
+
+// Start Nav styling
+.nav {
+  background-color: $dark-blue !important;
+  color: $white !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  //   max-width: 20% !important;
+}
+
+// End Nav styling
+
+// start cryptos
+.cryptos {
+  .currency-first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .currency-name-header {
+    font-weight: bold !important;
+  }
+}
+
+// end cryptos

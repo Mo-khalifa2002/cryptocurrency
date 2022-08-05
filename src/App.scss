@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before,
+body,
+body::after,
+body::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+// variables
+$black: #000;
+$white: #fff;
+$blue: #0071bd;
+$light-blue: #e6f7ff;
+$dark-blue: rgb(12, 9, 58);
+$border: #d9d9d9;
+$trans: all 0.3s ease-in-out;
+
+// mixins
+@mixin flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexy-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
